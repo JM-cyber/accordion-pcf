@@ -16,6 +16,10 @@ A fully customizable accordion/FAQ component for Microsoft Power Apps canvas app
 
 ---
 
+## 📸 Demo
+
+![AccordionV2 Demo](./demo.gif)
+
 ## 📦 Installation
 
 1. Download `AccordionV2_sln.zip`
