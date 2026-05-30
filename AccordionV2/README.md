@@ -18,7 +18,7 @@ A fully customizable accordion/FAQ component for Microsoft Power Apps canvas app
 
 ## 📸 Demo
 
-![AccordionV2 Demo](./demo.gif)
+![AccordionV2 Demo](GIF%20-%20PCF.gif)
 
 ## 📦 Installation
 
