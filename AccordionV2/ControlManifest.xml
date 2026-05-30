@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+  <control namespace="longnt" constructor="AccordionV2" version="1.0.0" display-name-key="AccordionV2" description-key="AccordionV2_Desc" control-type="standard" api-version="1.3.18">
+
+    <property name="visibleCount" display-name-key="Visible_Count" description-key="Visible_Count_Desc" of-type="Decimal" usage="input" required="false" default-value="3"/>
+    <property name="accentColor" display-name-key="Accent_Color" description-key="Accent_Color_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value="#ac2bbc"/>
+    <property name="titleColor" display-name-key="Title_Color" description-key="Title_Color_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value="#111827"/>
+    <property name="subtitleColor" display-name-key="Subtitle_Color" description-key="Subtitle_Color_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value="#9ca3af"/>
+    <property name="bodyTextColor" display-name-key="Body_Text_Color" description-key="Body_Text_Color_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value="#6b7280"/>
+    <property name="borderColor" display-name-key="Border_Color" description-key="Border_Color_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value="#e5e7eb"/>
+    <property name="bgColor" display-name-key="Bg_Color" description-key="Bg_Color_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value="#ffffff"/>
+    <property name="borderRadius" display-name-key="Border_Radius" description-key="Border_Radius_Desc" of-type="Decimal" usage="input" required="false" default-value="12"/>
+    <property name="animDuration" display-name-key="Anim_Duration" description-key="Anim_Duration_Desc" of-type="Decimal" usage="input" required="false" default-value="0.28"/>
+    <property name="bodyFontSize" display-name-key="Body_Font_Size" description-key="Body_Font_Size_Desc" of-type="Decimal" usage="input" required="false" default-value="12"/>
+    <property name="titleFontSize" display-name-key="Title_Font_Size" description-key="Title_Font_Size_Desc" of-type="Decimal" usage="input" required="false" default-value="13"/>
+
+    <property name="item1Title" display-name-key="Item1_Title" description-key="Item1_Title_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value="Personal information"/>
+    <property name="item1Subtitle" display-name-key="Item1_Subtitle" description-key="Item1_Subtitle_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value="Name, date of birth, civil status"/>
+    <property name="item1Body" display-name-key="Item1_Body" description-key="Item1_Body_Desc" of-type="Multiple" usage="input" required="false" default-value="Enter content for section 1 here."/>
+
+    <property name="item2Title" display-name-key="Item2_Title" description-key="Item2_Title_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value="Employment information"/>
+    <property name="item2Subtitle" display-name-key="Item2_Subtitle" description-key="Item2_Subtitle_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value="Rank, location, hiring date"/>
+    <property name="item2Body" display-name-key="Item2_Body" description-key="Item2_Body_Desc" of-type="Multiple" usage="input" required="false" default-value="Enter content for section 2 here."/>
+
+    <property name="item3Title" display-name-key="Item3_Title" description-key="Item3_Title_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value="HMO coverage details"/>
+    <property name="item3Subtitle" display-name-key="Item3_Subtitle" description-key="Item3_Subtitle_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value="Plan, membership type, coverage"/>
+    <property name="item3Body" display-name-key="Item3_Body" description-key="Item3_Body_Desc" of-type="Multiple" usage="input" required="false" default-value="Enter content for section 3 here."/>
+
+    <property name="item4Title" display-name-key="Item4_Title" description-key="Item4_Title_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value=""/>
+    <property name="item4Subtitle" display-name-key="Item4_Subtitle" description-key="Item4_Subtitle_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value=""/>
+    <property name="item4Body" display-name-key="Item4_Body" description-key="Item4_Body_Desc" of-type="Multiple" usage="input" required="false" default-value=""/>
+
+    <property name="item5Title" display-name-key="Item5_Title" description-key="Item5_Title_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value=""/>
+    <property name="item5Subtitle" display-name-key="Item5_Subtitle" description-key="Item5_Subtitle_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value=""/>
+    <property name="item5Body" display-name-key="Item5_Body" description-key="Item5_Body_Desc" of-type="Multiple" usage="input" required="false" default-value=""/>
+
+    <property name="item6Title" display-name-key="Item6_Title" description-key="Item6_Title_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value=""/>
+    <property name="item6Subtitle" display-name-key="Item6_Subtitle" description-key="Item6_Subtitle_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value=""/>
+    <property name="item6Body" display-name-key="Item6_Body" description-key="Item6_Body_Desc" of-type="Multiple" usage="input" required="false" default-value=""/>
+
+    <property name="item7Title" display-name-key="Item7_Title" description-key="Item7_Title_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value=""/>
+    <property name="item7Subtitle" display-name-key="Item7_Subtitle" description-key="Item7_Subtitle_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value=""/>
+    <property name="item7Body" display-name-key="Item7_Body" description-key="Item7_Body_Desc" of-type="Multiple" usage="input" required="false" default-value=""/>
+
+    <property name="item8Title" display-name-key="Item8_Title" description-key="Item8_Title_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value=""/>
+    <property name="item8Subtitle" display-name-key="Item8_Subtitle" description-key="Item8_Subtitle_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value=""/>
+    <property name="item8Body" display-name-key="Item8_Body" description-key="Item8_Body_Desc" of-type="Multiple" usage="input" required="false" default-value=""/>
+
+    <property name="item9Title" display-name-key="Item9_Title" description-key="Item9_Title_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value=""/>
+    <property name="item9Subtitle" display-name-key="Item9_Subtitle" description-key="Item9_Subtitle_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value=""/>
+    <property name="item9Body" display-name-key="Item9_Body" description-key="Item9_Body_Desc" of-type="Multiple" usage="input" required="false" default-value=""/>
+
+    <property name="item10Title" display-name-key="Item10_Title" description-key="Item10_Title_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value=""/>
+    <property name="item10Subtitle" display-name-key="Item10_Subtitle" description-key="Item10_Subtitle_Desc" of-type="SingleLine.Text" usage="input" required="false" default-value=""/>
+    <property name="item10Body" display-name-key="Item10_Body" description-key="Item10_Body_Desc" of-type="Multiple" usage="input" required="false" default-value=""/>
+
+    <resources>
+      <code path="bundle.js" order="1"/>
+      <css path="css/AccordionV2.css" order="1"/>
+    </resources>
+    <feature-usage/>
+    <built-by name="pac" version="1.51.1"/>
+  </control>
+</manifest>
