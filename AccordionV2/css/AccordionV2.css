@@ -1,0 +1,81 @@
+.acc-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 4px 2px;
+}
+.acc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.acc-item {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 0.25s, box-shadow 0.25s;
+  border-width: 0.5px;
+  border-style: solid;
+}
+.acc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  cursor: pointer;
+  user-select: none;
+  gap: 12px;
+}
+.acc-header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex: 1;
+  min-width: 0;
+}
+.acc-title {
+  font-weight: 500;
+  font-family: Segoe UI, sans-serif;
+  transition: color 0.25s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.acc-subtitle {
+  font-size: 11px;
+  font-family: Segoe UI, sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.acc-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  border-width: 0.5px;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.25s, border-color 0.25s;
+  cursor: pointer;
+}
+.acc-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.acc-body.is-open {
+  grid-template-rows: 1fr;
+}
+.acc-body-inner {
+  overflow: hidden;
+}
+.acc-body-content {
+  padding: 16px 20px 20px;
+  font-family: Segoe UI, sans-serif;
+  line-height: 1.75;
+  border-top-width: 0.5px;
+  border-top-style: solid;
+}
